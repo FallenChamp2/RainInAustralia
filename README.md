@@ -14,8 +14,8 @@ Shape - (145460 x 23)
 
 Languages and libraries:
 
-This project uses python3, sklearn, numpy, pandas, xgboost in kaggle jupyter notebook environment.
+This project uses python3, sklearn, numpy, pandas, imblearn, collections, matplotlib in kaggle jupyter notebook environment.
 
 Models and techniques used :
- 1. DecisiontreeClassifier, RandomForestClassifier, XGBClassifier.
- 2. PermutationImportance for feature importance, pca for dimensionality reduction and RandomizedSearchCV to find parameters for the models.
+ 1. RandomForestClassifier, DecisiontreeClassifier.
+ 2. PCA for dimensionality reduction, SMOTE for minority upsampling and RandomizedSearchCV to find parameters for the models.
